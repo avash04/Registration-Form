@@ -1,0 +1,67 @@
+body {
+    background:url("img/1.jpg");
+    background-repeat: no-repeat;
+background-size: cover;
+  font-family: Arial, sans-serif;
+  color: white;
+  padding: 20px;
+}
+
+h1, p {
+    font-display: block;
+
+    color: rgb(0, 0, 0);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+form {
+  background: #1c1f3a;
+  padding: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+fieldset {
+  border: none;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: none;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+input[type="submit"] {
+display:block;
+  background-color: #37af65;
+  color: white;
+  border: 20px 20px;
+  border-radius: 20px;
+  padding: 10px;
+  width: 40%;
+  margin:auto;
+  cursor: pointer;
+}
